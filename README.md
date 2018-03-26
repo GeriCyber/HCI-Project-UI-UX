@@ -1,7 +1,7 @@
 # HCI-Project-UI-UX
-Proyecto de HCI (Front-End)
+### Proyecto de HCI (Front-End)
 
-Diseño UI/UX
+### Diseño UI/UX
 
 La realización del proyecto consiste en una plataforma online donde los
 usuarios pueden obtener plantillas para sus Curriculum vitae, el usuario final
@@ -19,3 +19,14 @@ manera:
 - Recuperabilidad
 - Guía de usuario
 - Diversidad de usuarios
+
+#### Framework Utilizado
+Para la elaboración de este proyecto se utilizo el Framework de desarrollo Front-End de Google Materialize en su version 1.0.0-beta
+http://materializecss.com/
+- Tambien se utilizaron algunas librerias de JS como 
+- Typed.js https://mattboldt.com/demos/typed-js/
+- Magnific Popup http://dimsemenov.com/plugins/magnific-popup/
+- MixItUp https://www.kunkalabs.com/mixitup/
+
+
+
