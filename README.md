@@ -23,7 +23,7 @@ manera:
 #### Framework Utilizado
 Para la elaboración de este proyecto se utilizo el Framework de desarrollo Front-End de Google Materialize en su version 1.0.0-beta
 http://materializecss.com/
-- Tambien se utilizaron algunas librerias de JS como 
+Adicionalmente se utilizaron algunas librerias de JS como 
 - Typed.js https://mattboldt.com/demos/typed-js/
 - Magnific Popup http://dimsemenov.com/plugins/magnific-popup/
 - MixItUp https://www.kunkalabs.com/mixitup/
