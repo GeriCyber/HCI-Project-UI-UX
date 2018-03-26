@@ -27,6 +27,3 @@ http://materializecss.com/
 - Typed.js https://mattboldt.com/demos/typed-js/
 - Magnific Popup http://dimsemenov.com/plugins/magnific-popup/
 - MixItUp https://www.kunkalabs.com/mixitup/
-
-
-
