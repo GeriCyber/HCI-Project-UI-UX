@@ -13,9 +13,9 @@ general del sistema y la experiencia del usuario final, usando herramientas que
 fortalezcan las ontologías a emplear, la interfaz se debe elaborar de la siguiente
 manera:
 
-1. Intuitiva basados en la familiaridad de los usuarios con otros sistemas.
-2. Consistente
-3. Mínima sorpresa
-4. Recuperabilidad
-5. Guía de usuario
-6. Diversidad de usuarios
+- Intuitiva basados en la familiaridad de los usuarios con otros sistemas.
+- Consistente
+- Mínima sorpresa
+- Recuperabilidad
+- Guía de usuario
+- Diversidad de usuarios
