@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+       <meta charset="UTF-8">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/plugin.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        
+        <div class="navbar-fixed">
+            <nav> 
+              <ul id="slide-out" class="sidenav">
+                <li>
+                    <div class="user-view">
+                        <div class="background" style="background-color: #333644;"></div>
+                        <div class="center">
+                            <img class="circle" src="img/user.jpg">
+                            <a href="#!name"><span class="white-text name">Usario en linea</span></a>
+                            <a href="#!email"><span class="white-text email">anie@gmail.com</span></a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="index.html" class="waves-effect">Inicio</a></li>
+                <li><div class="divider"></div></li>
+                <li><a class="waves-effect" href="acerca-de.html">Acerca de</a></li>
+                <li><div class="divider"></div></li>
+                <li><a class="waves-effect" href="como-construir-un-cv.html">Como hacer un Curriculum Vitae</a></li>
+                <li><div class="divider"></div></li>
+                <li><a class="waves-effect" href="contacto.html">Contacto</a></li>
+              </ul>
+              <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+              
+              <div class="nav-wrapper">
+                <a href="#" class="brand-logo center"><img src="img/logo.png" width="70" style="padding-top: 4px;"></a>
+                <!--div>
+                        <i class="material-icons">search</i>
+                        <input type="text" name="Search" class="header-search-input z-depth-2" placeholder="Explore Materialize">
+                </div!-->
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <a class="waves-effect waves-block waves-light translation-button dropdown-trigger" data-target="translation-dropdown">
+                            <span class="flag-icon flag-icon-gb" style="height: 15px;"></span>
+                        </a>
+                        <ul id="translation-dropdown" class="dropdown-content">
+                            <li>
+                                <a href="#!" class="grey-text text-darken-1">
+                                <i class="flag-icon flag-icon-gb"></i> Ingles</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="grey-text text-darken-1">
+                                <i class="flag-icon flag-icon-fr"></i> Español</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--li>
+                        <a class="waves-effect waves-block waves-light toggle-fullscreen">
+                            <i class="material-icons">settings_overscan</i>
+                        </a>
+                    </li!-->
+                    <li>
+                        <a class="waves-effect waves-block waves-light" data-target="notifications-dropdown">
+                            <i class="material-icons">notifications_none
+                            <small class="notification-badge pink accent-2">5</small>
+                            </i>
+                        </a>
+                        <ul id="notifications-dropdown" class="dropdown-content">
+                            <li>
+                                <h6>NOTIFICATIONS
+                                    <span class="new badge">5</span>
+                                </h6>
+                            </li>
+                        </ul>   
+                    </li>
+                    <li>
+                        <a class="dropdown-trigger waves-block waves-light" data-target="profile-dropdown">
+                            <i class="material-icons">account_circle
+                            </i>
+                        </a>
+                        
+                        <ul id="profile-dropdown" class="dropdown-content">
+                            <li>
+                                <a href="dashboard.html" class="grey-text text-darken-1">
+                                    <i class="material-icons">face</i> Perfil</a>
+                            </li>
+                            <li>
+                            <a href="como-construir-un-cv.html" class="grey-text text-darken-1">
+                                <i class="material-icons">live_help</i> Ayuda</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                            <a href="index.html" class="grey-text text-darken-1">
+                                <i class="material-icons">keyboard_tab</i> Cerrar Sesion</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+             </div>
+      
+            </nav>
+        </div>
+
+        <div class="container-fluid">
+            <div class="container">
+                <div class="center-align">
+                    <h1>Bienvenido Jhon Doe!</h1>
+                </div>
+                <div id="card-stats">
+                    <div class="row">
+                        <div class="col s12 m12 l6">
+                            <div class="card horizontal">
+                                <div class="card-image">
+                                <img src="img/card-2.png">
+                                </div>
+                                <div class="card-stacked">
+                                <div class="card-content">
+                                    <h5>Crear un nuevo CV</h5><br>
+                                        <a class="waves-effect waves-light btn wow fadeIn" href="crear-cv.html">Crear CV</a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m12 l6">
+                            <div class="card horizontal">
+                                <div class="card-image">
+                                <img src="img/avatar-7.png">
+                                </div>
+                                <div class="card-stacked">
+                                <div class="card-content">
+                                    <h5>Ver todos los CV realizados</h5><br>
+                                        <a class="waves-effect waves-light btn wow fadeIn" href="#">Mis CV</a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m12 l6">
+                            <div class="card horizontal">
+                                <div class="card-image">
+                                <img src="img/card-3.png">
+                                </div>
+                                <div class="card-stacked">
+                                <div class="card-content">
+                                    <h5>Como crear un Curriculum Vitae?</h5><br>
+                                        <a class="waves-effect waves-light btn wow fadeIn" href="como-construir-un-cv.html">Ver Info</a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m12 l6">
+                            <div class="card horizontal">
+                                <div class="card-image">
+                                <img src="img/card-1.png">
+                                </div>
+                                <div class="card-stacked">
+                                <div class="card-content">
+                                    <h5>Diseños disponibles</h5><br>
+                                        <a class="waves-effect waves-light btn wow fadeIn" href="#">Ver</a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 l6">
+                        <div class="card gradient-45deg-light-blue-cyan gradient-shadow min-height-100 white-text">
+                            <div class="padding-4">
+                            <div class="col s7 m7">
+                                <i class="material-icons background-round mt-5">perm_identity</i>
+                                <p>Usuarios en línea</p>
+                                <p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div class="col s5 m5 right-align">
+                                <h3 class="mb-0">150</h3>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col s12 m6 l6">
+                        <div class="card gradient-45deg-red-pink gradient-shadow min-height-100 white-text">
+                            <div class="padding-4">
+                            <div class="col s7 m7">
+                                <i class="material-icons background-round mt-5">perm_identity</i>
+                                <p>Usuarios</p>
+                                <p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div class="col s5 m5 right-align">
+                                <h3 class="mb-0">1885</h3>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col s12 m6 l6">
+                        <div class="card gradient-45deg-amber-amber gradient-shadow min-height-100 white-text">
+                            <div class="padding-4">
+                            <div class="col s7 m7">
+                                <i class="material-icons background-round mt-5">timeline</i>
+                                <p>Estadísticas</p>
+                                <p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div class="col s5 m5 right-align">
+                                <h3 class="mb-0">80%</h3>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col s12 m6 l6">
+                        <div class="card gradient-45deg-green-teal gradient-shadow min-height-100 white-text">
+                            <div class="padding-4">
+                            <div class="col s7 m7">
+                                <i class="material-icons background-round mt-5">timeline</i>
+                                <p>Visitas diarias</p>
+                                <p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div class="col s5 m5 right-align">
+                                <h3 class="mb-0">40%</h3>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+      <footer class="page-footer" id="foot">
+          <div class="container">
+            <div class="row">
+              <div class="col l4 s12 links">
+                <h5 class="foot-subtitle">Enlaces de Interes</h5>
+                <ul>
+                  <li><a class="white-text" href="terminos-y-condiciones.html">Terminos y condiciones</a></li>
+                  <li><a class="white-text" href="acerca-de.html">Acerca de nosotros</a></li>
+                  <li><a class="white-text" href="como-construir-un-cv.html">Como hacer un Curriculum Vitae</a></li>
+                  <li><a class="white-text" href="contacto.html">Contacto</a></li>
+                </ul>
+              </div>
+              <div class="col l4 s12 center">
+                <h5 class="foot-subtitle">Siguenos</h5>
+                <p class="grey-text text-lighten-4">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor. <br><br>
+                  <a href="#"><img src="img/facebook.svg" width="35">&nbsp;&nbsp;</a>
+                  <a href="#"><img src="img/instagram.svg" width="35">&nbsp;&nbsp;</a>
+                  <a href="#"><img src="img/twitter.svg" width="35">&nbsp;&nbsp;</a>
+                  <a href="#"><img src="img/youtube.svg" width="35">&nbsp;&nbsp;</a>
+                </p>
+              </div>
+              <div class="col l4 s12 center">
+                <h2 class="foot-subtitle"><a href="index.html"><img src="img/logo.png" width="150"></a></h2>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container center">
+            © 2018 G&amp;W | Todos los derechos reservados <br>
+            Imagenes tomadas de <a href="https://www.freepik.com/">Freepik</a>
+            </div>
+          </div>
+    </footer>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/plugin.js"></script>
+      <script type="text/javascript" src="js/script.js"></script>
+
+    </body>
+</html>
