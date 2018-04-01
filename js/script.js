@@ -7,8 +7,7 @@
         $(".typing").typed({
             strings: ["Rellena el formulario y toma un café.", "W&amp;G CV diseña el curriculum perfecto para ti."],   
             typeSpeed: 70,
-            loop: false,
-            loopCount: Infinity
+            loop: false
           });
 
         /* Portfolio Filtering */
