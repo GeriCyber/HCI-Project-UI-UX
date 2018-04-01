@@ -478,6 +478,10 @@ object
         padding-right: 30px;
         padding-left: 30px;
     }
+    .img-header
+    {
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width: 1024px)
